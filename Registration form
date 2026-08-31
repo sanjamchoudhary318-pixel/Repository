@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    
+        <legend>DETAILS</legend>
+   <div id="head"><center> <h1>REGISTRATION FORM</h1></center></div>
+   <fieldset>
+    <u>
+    <form id="form">
+        NAME<input type="text" id="name" placeholder="enter name" ><br>
+        PASSWORD:<input type="password" id="pass" placeholder="enter password"><br>
+        HOBBIES:<input type="hobbies" placeholder="hobbies"><br>
+        Gender:<input type="radio" id="gender">MALE <input type="radio" id="gender">FEMALE<br>
+        ADDRESS:<textarea type="text" id="ADDRESS" row="1" cols="1"></textarea><br>
+        DATE:<input type="date" id="date">
+        TIME:<input type="time" id="time"> <br>
+        UPLOD DOCUMENT<input type="file" id="file"><br>
+        
+      <center><button type="submit">Submit</button><button type="reset">Reset</button></center>
+    </form></u></fieldset>
+</body>
+</html>
